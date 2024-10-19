@@ -1,0 +1,17 @@
+body {
+  background-image: url(images/pic.webp);
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: fixed;
+  padding-left: 40px;
+  margin-top: 80px;
+}
+p.veda {
+  text-shadow: 20%;
+  color: rgb(43, 226, 55);
+  font-size: 20px;
+}
+
+.rutu {
+  color: cyan;
+}

@@ -1,0 +1,11 @@
+#name {
+  border: 2px;
+  outline-style: solid;
+  outline-color: red;
+}
+#message {
+  border: 2px;
+  outline-style: dotted;
+  outline-color: rgb(197, 127, 255);
+  outline-offset: 15px;
+}

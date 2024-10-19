@@ -1,0 +1,17 @@
+.square {
+  width: 600px;
+  height: 400px;
+  background-color: #3498db;
+  margin: 20px auto;
+  border: 3px solid;
+  border-color: black;
+  outline-style: dotted;
+  outline-color: rgb(255, 127, 127);
+  outline-width: 4px;
+}
+
+p {
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+}
