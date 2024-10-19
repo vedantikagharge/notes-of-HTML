@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic form</title>
+  </head>
+  <body>
+    <form autocomplete="on">
+      <label>First Name:</label>
+      <input type="text" placeholder="enter your name:" multiple/>
+      <br />
+      <br />
+      <label>Last Name:</label>
+      <input type="text" placeholder="enter your lastname:" maxlength="4" size="50"/>
+      <br />
+      <br />
+      <label>Password:</label>
+      <input type="password" placeholder="password:" />
+      <br />
+      <br />
+      <label>Email:</label>
+      <input type="email" placeholder="enter your email:" />
+      <br />
+      <br />
+      <input type="radio" id="html" name="fav_lang" value="html" />
+      <label for="html">html</label><br /><br />
+
+      <input type="radio" id="css" name="fav_lang" value="css" />
+      <label for="css">css</label><br /><br />
+
+      <input type="radio" id="javascript" name="fav_lang" value="javascript" />
+      <label for="javascript">javascript</label><br /><br />
+
+      <input type="checkbox" id="vehical1" name="vehical1" value="bike" />
+      <label for="vehical1">I have a bike</label><br /><br />
+
+      <input type="checkbox" id="vehical2" name="vehical2" value="car" />
+      <label for="vehical2">I have a car</label><br /><br />
+
+      <input type="checkbox" id="vehical3" name="vehical3" value="boat" />
+      <label for="vehical3">I have a boat</label><br /><br />
+
+      <label form="cars" choose a car:></label>
+      <select id="cars" name="cars"
+      <option value="valvo" >valvo</option>
+      <option value="saab" >saab</option>
+      <option value="fiat" >fiat</option>
+      <option value="audi " selected> audi</option>
+      <br>
+      <br>
+      <br>
+       <input type="submit" value="submit" />
+      <br>
+      <br>
+      <textarea name="message" rows="5" cols="4">the car was playing in the garden </textarea>
+      <br>
+      <br>
+      <input type ="date">
+      <br>
+      <br>
+      <button type="button" onclick="alert('hello')">click me </button>
+      <br>
+      <br>
+      <input type="file">
+      <br>
+      <br>
+      <input type ="month">
+      
+    </form>
+
+
+    <form action="/action_php">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="edge">
+                <option value="chrome">
+                    <option value="Firefox">
+            <option value="opera">
+                <option value="safari"></option>
+            </option>
+        </datalist>
+
+    </form>
+  </body>
+</html>
