@@ -1,0 +1,55 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.up {
+  background-image: url(images/photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: rgb(243, 244, 241);
+}
+/* p {
+  color: aquamarine;
+} */
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.mid,
+.mid1 {
+  text-align: center;
+
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.f {
+  width: auto;
+  height: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}

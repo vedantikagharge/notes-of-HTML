@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+}
+
+p.small {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-style: oblique;
+  font-size: large;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  width: max(50%, 300px);
+}
+
+p.big {
+  background-color: beige;
+  text-indent: 40px;
+  font-size: 1.5rem;
+  width: calc(100% - 400px);
+  width: min(50%, 300px);
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol.ordered {
+  list-style-type: lower-roman;
+  font-variant: small-caps;
+}
+ul.unordered {
+  list-style-type: square;
+  list-style-position: inside;
+}
+ol.vedu {
+  list-style-position: outside;
+  list-style-type: decimal-leading-zero;
+}
