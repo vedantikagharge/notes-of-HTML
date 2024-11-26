@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-height: 100vh;
+}
+
+.content {
+    width: 70vw;
+}
+
+.dashboard {
+    width: 110%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem ;
+    border-bottom: 1px solid rgba(100, 100, 100, 1);
+}
+
+.title input {
+    border: 1px solid #A3A3A3;
+    width: 9rem;
+    border-radius: 50px;
+}
+
+.search-icon {
+    margin-left: -15%;
+    top: 10px;
+    vertical-align: middle;
+}
+
+.form {
+    width: auto;
+    /* margin: 0 auto; */
+    margin-left: 2rem;
+    background-color: white;
+    border: 1px solid rgba(100, 100, 100, 1);
+    border-radius: 5px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea textarea {
+    width: 28rem;
+    height: 5rem;
+    resize: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.form h1 {
+    margin-bottom: 2%;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.area {
+    width: 100%;
+    display: flex;
+    gap: 9rem;
+    align-items: center;
+}
+
+label {
+    /* display: block; */
+    margin-bottom: 5px;
+}
+
+input{
+    width: 50%;
+    height: 1rem;
+    padding: 10px;
+    border: 0.5px solid #555555;
+    border-radius: 5px;
+}
+.textarea{
+    width: 50% ;
+    height: 4.5rem;
+    padding: 10px;
+    border: 0.5px solid #555555;
+    border-radius: 5px;
+    resize: none;
+}
+
+.buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#submit {
+    background-color: #FF9750;
+}
+
+#reset {
+    background-color: #CBCBCB;
+    color: #494949;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+}
+.leftdiv{
+    width: 50%;  
+}
+.rightdiv{
+    width: 50%;
+}
+
+.date-input,
+.dropdown {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 54%;
+    border: 0.5px solid #555555;
+    border-radius: 5px;
+}

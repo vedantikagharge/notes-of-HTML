@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Form</title>
+    <link rel="stylesheet" href="/css/Classlist.css">
+</head>
+<body>
+    <div class="main">
+        <div id="sidebar"></div>
+        <div class="dashboard">
+            <div id="header"></div>
+            <div class="content">
+                <header>
+                        <h1>Classlist</h1>
+                        <div class="search-add">
+                            <span>
+                                <input type="text" placeholder="Search Membership"><img src="/assets/svg/search.svg" alt="" class="search-icon">
+                            </span>
+                        </div>
+                </header>
+                <div class="attendance-container">
+                    <form action="submit_attendance.php" method="">
+                        <!-- Header Section -->
+                        <div class="top">
+                            <input type="date" name="attendance_date" class="date-input" required>
+                            <select name="class" class="dropdown" required>
+                                <option value="">-Select Class-</option>
+                                <option value="class1">Class 1</option>
+                                <option value="class2">Class 2</option>
+                            </select>
+                            <select name="start_time" class="dropdown" required>
+                                <option value="">Start Time</option>
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                            </select>
+                            <select name="end_time" class="dropdown" required>
+                                <option value="">End Time</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                            </select>
+                            <button type="submit" class="take-attendance-btn">View Attendance</button>
+                        </div>
+
+                        <!-- Attendance Table -->
+                        <table class="attendance-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 1rem;">Photo</th>
+                                    <th style="width: 15rem;">Name</th>
+                                    <th>Attendance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="/assets/svg/profile.svg" alt="Photo" class="profile-pic"></td>
+                                    <td>Staff full Name</td>
+                                    <td id="status">present</td>   
+                                </tr>
+                                <tr>
+                                    <td><img src="/assets/svg/profile.svg" alt="Photo" class="profile-pic"></td>
+                                    <td>Staff full Name</td>
+                                    <td id="status">present</td>   
+                                </tr>
+                                <tr>
+                                    <td><img src="/assets/svg/profile.svg" alt="Photo" class="profile-pic"></td>
+                                    <td>Staff full Name</td>
+                                    <td id="status">present</td>   
+                                </tr>
+                                <tr>
+                                    <td><img src="/assets/svg/profile.svg" alt="Photo" class="profile-pic"></td>
+                                    <td>Staff full Name</td>
+                                    <td id="status">present</td>   
+                                </tr>
+                                <tr>
+                                    <td><img src="/assets/svg/profile.svg" alt="Photo" class="profile-pic"></td>
+                                    <td>Staff full Name</td>
+                                    <td id="status">present</td>   
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

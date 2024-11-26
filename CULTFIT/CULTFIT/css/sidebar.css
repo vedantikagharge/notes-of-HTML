@@ -1,0 +1,139 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+   background-color: #F1F1F1;
+}
+
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.logo{
+    display: flex;
+    /* align-items:flex-start; */
+    position: sticky;
+    margin-top: -1rem;
+    margin-left: -2rem;   
+}
+.leftarrow{
+    margin-top: -100px;
+}
+
+.hero {
+    height: 25vh;
+    width: 25vh;
+    vertical-align: baseline;
+}
+.menu{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+    margin-top: -2.5rem;
+}
+
+.menu ul{
+    margin-left: 1.2rem;
+}
+.menu ul li{
+    margin: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.menu ul li img {
+    width: 20px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.menu ul li a{
+    margin-left: 0%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.main-menu{
+    /* background-color: rgba(255, 255, 255, 0.16); */
+    padding: 0.4rem;
+    display: flex;
+    
+}
+
+.down-arrow{
+    display: none;
+}
+
+#one{
+    padding-left: 4rem;
+}
+
+#two{
+    padding-left: 1rem;
+}
+
+#three {
+    padding-left: 3.5rem;
+}
+.sub-menu-1{
+    display: none;
+    margin-top: -15.4%;
+    margin-left: -0.5%;
+    /* padding-top: 2.2rem; */
+    width: 14.9rem;
+
+}
+.sub-menu-1 ul {
+    padding-top: 2rem;
+    padding-left: 0.6rem;
+    list-style: none;
+    margin: 0;
+}
+.sub-menu-1 ul li{
+    padding: 0.2rem 0.4rem;
+    margin-left: -4.5%;
+}
+
+.sub-menu-1 ul  {
+    /* background-color: rgba(255, 255, 255, 0.16); */
+}
+
+.pointer{
+    top: 2.25rem;
+    right: 3.1rem;
+    position: relative;
+    height: 2rem;
+}
+
+/* Default styles */
+.svg-hover img {
+    transition: filter 0.3s ease;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.svg-hover span {
+    transition: color 0.3s ease;
+    color: white;
+    font-weight: 400;
+}
+
+/* Hover styles */
+.svg-hover:hover img {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(60%) saturate(435%) brightness(102%) contrast(95%);
+}
+
+.svg-hover:hover span {
+    color: #FF9750;
+    /* Change text color */
+}

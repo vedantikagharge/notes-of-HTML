@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.main{
+    height: 100vh;
+}
+.content {
+    width: 70vw;
+}
+.dashboard {
+    width: 76.5vw;
+    height: 80vh;
+    background-color: #FBFBFB;
+    margin: 2rem;
+    margin-top: 1%;
+    border: 2px solid #6E6E6E;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A3A3A3;
+    padding: 1.5rem;
+}
+
+.title input {
+    border: 1px solid #A3A3A3;
+    width: 9rem;
+    border-radius: 50px;
+}
+.search-icon {
+    margin-left: -15%;
+    top: 10px;
+    vertical-align: middle;
+}
+
+input{
+    width: 90%;
+        height: 1rem;
+        padding: 10px;
+        border: 1px solid #A3A3A3;
+}
+
+.profile{
+    padding: 1rem 1.5rem;
+    display: flex;
+    margin-top: -2%;
+}
+
+.photo img{
+        height: 9rem;
+        vertical-align: middle;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.leftdiv{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.rightdiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    text-align: left;
+    gap: 3rem;
+    padding: 2rem;
+}

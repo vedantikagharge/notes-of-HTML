@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add  
+ Staff/Trainer</title>
+  <link rel="stylesheet" href="/css/Member_AddTrainee.css">
+</head>
+<body>
+  <div class="main">
+    <div id="sidebar"></div>
+    <div class="content">
+            <div id="header"></div>
+            <div class="dashboard">
+                    <div class="form">
+                      <div class="title">
+                        <h3>Add Trainee</h3>
+                            <span>
+                              <input type="text" placeholder="Search here"><img src="/assets/svg/search.svg" alt="" class="search-icon">
+                            </span>
+                      </div>
+                      <form>
+                        <div class="info">
+                                <div class="leftdiv">
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" name="name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="dob">DOB</label>
+                                        <input type="date" id="dob" name="dob">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="age">Age</label>
+                                        <input type="number" id="age" name="age">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="photo">Membership</label>
+                                        
+                                        <select name="class" class="dropdown" required>
+                                            <option value="">-Select Membership-</option>
+                                            <option value="class1">Class 1</option>
+                                            <option value="class2">Class 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="photo">Next Payment Schedule Date</label>
+                                        <input type="date" id="photo" name="photo">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="photo">Personal Trainer</label>
+                                        <select name="class" class="dropdown" required>
+                                            <option value="">-Select Trainer-</option>
+                                            <option value="class1">Class 1</option>
+                                            <option value="class2">Class 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="photo">Classes</label>
+                                        <select name="class" class="dropdown" required>
+                                            <option value="">-Select Class-</option>
+                                            <option value="class1">Class 1</option>
+                                            <option value="class2">Class 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="rightdiv">
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="email">Email ID</label>
+                                        <input type="email" id="email" name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="contact">Contact Number</label>
+                                        <input type="date" id="contact" name="contact">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="address">Address</label>
+                                        <textarea class="textarea" id="address" name="address"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="photo">Photo</label>
+                                        <input type="file" id="photo" name="photo">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="start-date">Join Date</label>
+                                        <input type="date" id="start-date" name="start-date">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="field">
+                                        <label for="end-date">End date</label>
+                                        <input type="date" id="end-date" name="end-date">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                          <button type="submit" id="submit">Save</button>
+                          <button type="reset" id="reset">Reset</button>
+                        </div>
+                      </form>
+                    </div>
+            </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>

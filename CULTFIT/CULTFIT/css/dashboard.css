@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    max-height: 100vh;
+}
+
+
+.dashboard{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    width: 100%;
+}
+
+.images{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0;
+    
+}
+.background img{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.28);
+    z-index: -10;
+}
+
+.background{
+    z-index: 1;
+    position: relative;
+}
+
+.background h2{
+    color: rgba(255, 255, 255, 1);
+    margin-top: -20%;
+    margin-left: 10%;
+    word-spacing: 2rem;
+}
+
+.info{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    margin-top: -1.5rem;
+}
+
+/* kjdbsjdbksjbd */
+
+.table-container {
+    width: 55%;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+table {
+    height: 0vh;
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f8f8f8;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.chart{
+    width: 30%;
+    margin-top: 2.5%;
+}
+.chart-container {
+    width: 100%;
+    height: 38vh;
+    margin: 2rem auto;
+    margin-left: 2%;
+    margin-top: 6.5%;
+    background: rgba(227, 227, 227, 1);    
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    gap: 10px;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart-container h2{
+    text-decoration: underline;
+}
+
+.pie-chart {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: conic-gradient(rgba(255, 151, 80, 1) 62.5%,
+            /* Boys (62.5% of the circle = 50/80 * 100) */
+            gray 62.5%
+            /* Girls start at 62.5% */
+        );
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center-text p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.legend {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.legend p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.boys {
+    background-color: rgba(255, 151, 80, 1);
+}
+
+.girls {
+    background-color: gray;
+}
+
+@media screen and (max-width: 480px){
+    .images{
+        width: 100vw;
+        height: 20vh;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        overflow-y: auto;
+        padding: 0;
+        margin-left: 1rem;
+        gap: 60px;
+    }
+
+    .background{
+        /* display: flex;
+        flex-wrap: wrap; */
+        gap: 10rem;
+        width: 40%;
+        justify-content: space-evenly;
+    }
+    .background img{
+            width: 10rem;
+            height: 10rem; 
+            object-fit: cover;
+    }
+    .background h2{
+        margin-top: -70%;
+        word-spacing: 0px;
+    }
+    .info{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .table-container{
+        width: 90vw;
+        overflow-x: auto;
+    }
+    .table{
+        width: 100%;
+
+    }
+    .chart{
+        width: 90vw;
+    }
+    .chart-container{
+        margin-left: 1.2rem;
+    }
+}

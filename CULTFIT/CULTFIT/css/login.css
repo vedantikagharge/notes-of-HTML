@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* background: url(/assets/images/background.png); */
+    object-fit: cover;
+    position: relative;
+    color: white;
+}
+
+.container img {
+    height: 17vw;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.1);
+    /* Transparent black */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+
+.main a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.main button {
+    margin-left: 30%;
+}
+
+.main input {
+    margin-top: 5px;
+    /* padding: 10px 10px; */
+    border: none;
+}
+
+.main span {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 1.5rem;
+}
+
+
+input[type=text],
+input[type=password] {
+    width: 20vw;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #CD821D;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+}
+
+@media screen and (max-width: 480px){
+    .main{
+        width: 50vw;
+    }
+    .container img{
+        height: 30vh;
+        margin-top: 30%;
+    }
+    input[type=text],input[type=password]{
+        width: 100%;
+    }
+}

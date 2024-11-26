@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+
+.container{
+    width: 77.5svw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right img{
+    vertical-align: middle;
+    height: ;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100vw;
+        /* flex-direction: column; */
+    }
+    .right{
+        gap: 10px;
+        margin-right: 7%;
+    }
+    #sidebar{
+        display: none;
+    }
+}

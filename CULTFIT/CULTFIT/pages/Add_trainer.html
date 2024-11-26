@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add  
+ Staff/Trainer</title>
+  <link rel="stylesheet" href="/css/Add_trainer.css">
+</head>
+<body>
+  <div class="main">
+    <div id="sidebar"></div>
+    <div class="content">
+            <div id="header"></div>
+            <div class="dashboard">
+                    <div class="form">
+                      <div class="title">
+                        <h1>Add Staff/Trainer</h1>
+                            <span>
+                              <input type="text" placeholder="Search here"><img src="/assets/svg/search.svg" alt="" class="search-icon">
+                            </span>
+                      </div>
+                      <form>
+                        <div class="form-group">
+                          <div class="field">
+                              <label for="photo">Photo:</label>
+                              <input type="file" id="photo" name="photo">
+                          </div>
+                        
+                          <div class="field">
+                              <label for="full-name">Staff Full Name:</label>
+                              <input type="text" id="full-name" name="full-name">
+                          </div>
+                          
+                          <div class="field">
+                              <label for="profession">Profession:</label>
+                              <input type="text" id="profession" name="profession">
+                          </div>
+                          
+                          <div class="field">
+                              <label for="contact-no">Contact No.:</label>
+                              <input type="tel" id="contact-no" name="contact-no">
+                          </div> 
+                        </div>
+
+                        <div class="form-group">
+                          <div class="field">
+                              <label for="experience">Experience:</label>
+                              <textarea id="experience" name="experience"></textarea>
+                          </div>
+                          
+                        <div class="field">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email">
+                        </div>
+                          
+                          <div class="field">
+                              <label for="dob">DOB:</label>  
+                              <input type="date" id="dob" name="dob">
+                          </div>
+
+                          <div class="field">
+                              <label for="batch">Batch:</label>
+                              <input type="text" id="batch" name="batch">
+                          </div>
+                        </div>
+
+                        <div class="area">
+                          <div class="textarea">
+                              <label for="address">Address:</label>
+                              <textarea  id="address" name="address" ></textarea>
+                          </div>
+                          
+                          <div class="textarea">
+                              <label for="about-trainer">About Trainer:</label>
+                              <textarea id="about-trainer" name="about-trainer"></textarea>
+                          </div>
+                          
+                        </div>
+
+                        <div class="buttons">
+                          <button type="submit" id="submit">Save</button>
+                          <button type="reset" id="reset">Reset</button>
+                        </div>
+                      </form>
+                    </div>
+            </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>
